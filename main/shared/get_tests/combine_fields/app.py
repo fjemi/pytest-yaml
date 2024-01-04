@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-from __future__ import annotations
-
 import dataclasses as dc
 from typing import Any, List
 

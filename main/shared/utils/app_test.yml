@@ -1,9 +1,9 @@
 todo:
-- >
-  Add timestamp logic; a time stamp for each operations. Either of these formats
-  timestamp = [{operation_1: timestamp}, {operation_2: timestamp}]
-  timestamp = {op1: timestamp, op2: timestamp}
-- Adding the ability to log each operation
+- TODO: >
+    Add timestamp logic; a time stamp for each operations. Either of these formats
+    timestamp = [{operation_1: timestamp}, {operation_2: timestamp}]
+    timestamp = {op1: timestamp, op2: timestamp}
+- TODO: Adding the ability to log each operation
 
 
 resources:

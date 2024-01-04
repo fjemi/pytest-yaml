@@ -1,6 +1,7 @@
 todo:
-- complete test for update_store
-- fix first tested for call_async_target_with_unpacked_argument
+- TODO: complete test for update_store
+- TODO: fix first tested for call_async_target_with_unpacked_argument
+- TODO: Limit number of threads created/ran at once. Process in batches to reduce CPU workload
 
 
 resources:

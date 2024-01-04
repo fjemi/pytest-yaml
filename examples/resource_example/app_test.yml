@@ -4,7 +4,7 @@ globals:
   # Define global resources for use throughout
   # the YAML file
   resources:
-  - /examples/resource_example/resource.py
+  - ${ROOT_DIR}/examples/resource_example/resource.py
 
 
 tests:

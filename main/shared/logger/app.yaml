@@ -50,7 +50,7 @@ empty_values:
 - 'false'
 - 'False'
 - null
-- none
+- None
 - 0
 - '0'
 - ''

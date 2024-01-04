@@ -11,14 +11,14 @@ lint:
     - shellcheck@0.9.0
     - shfmt@3.6.0
     - bandit@1.7.6
-    - checkov@3.1.46
+    - checkov@3.1.51
     - git-diff-check
     - isort@5.13.2
     - markdownlint@0.38.0
     - osv-scanner@1.5.0
     - oxipng@9.0.0
     - prettier@3.1.1
-    - ruff@0.1.9
+    - ruff@0.1.11
     - taplo@0.8.1
     - trivy@0.48.1
     - trufflehog@3.63.7
@@ -27,9 +27,9 @@ lint:
   disabled:
     - black
   # ignore:
-    # - linters: [ALL]
-    #   paths:
-    #     - "**/test_resources/**"
+  # - linters: [ALL]
+  #   paths:
+  #     - "**/test_resources/**"
 runtimes:
   enabled:
     - go@1.21.0

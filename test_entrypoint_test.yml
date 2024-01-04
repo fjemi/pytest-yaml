@@ -1,7 +1,7 @@
 todo:
-- Incorporate the numeric id generated when collating tests ex. 0.1.1 with get_id function
-- Pass excluded funcitons and modules to coverage
-- Move some logic to plugin.py so that all that is needed is to import function test_
+- TODO: Incorporate the numeric id generated when collating tests ex. 0.1.1 with get_id function
+- TODO: Pass excluded funcitons and modules to coverage
+- TODO: Move some logic to plugin.py so that all that is needed is to import function test_
 
 
 globals:

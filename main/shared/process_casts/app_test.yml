@@ -1,5 +1,7 @@
 todo:
-- import set_object from set_patches and use that to set dot-delimited field path
+- TODO: import set_object from set_patches and use that to set dot-delimited field path
+- TODO: for casting think about chainging `caster` to `method`
+- TODO: may not need the `unpack`
 
 
 globals:

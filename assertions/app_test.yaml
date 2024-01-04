@@ -1,6 +1,6 @@
 todo:
-- Check if the "contains" assertions can be combined to reduce duplication of code
-- Need assertion for string/regex
+- TODO: Check if the "contains" assertions can be combined to reduce duplication of code
+- TODO: Need assertion for string/regex
 
 
 tests:

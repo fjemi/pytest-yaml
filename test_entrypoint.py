@@ -3,7 +3,6 @@
 
 
 import dataclasses as dc
-import time
 
 import pytest
 import yaml
@@ -44,9 +43,6 @@ def verify_assertions(assertions: list | None = None) -> int | None:
       assert expected == output
 
   return 1
-
-
-time.sleep(.1)  # Prevent overlap with pytest output in terminal
 
 
 @pytest.mark.parametrize(

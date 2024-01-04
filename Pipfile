@@ -6,12 +6,9 @@ name = "pypi"
 [packages]
 pyyaml = "==6.0"
 pytest = "*"
-dacite = "*"
 nest-asyncio = "*"
 
 [dev-packages]
-ruff = "*"
-yapf = "*"
 pre-commit = "*"
 pytest-cov = "*"
 pytest-yaml = {editable = true, path = "."}

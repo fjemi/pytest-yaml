@@ -1,9 +1,15 @@
-# /examples/patch_example/app.py
+#!.venv/bin/python3
+# -*- coding: utf-8 -*-
+
+
+# ${ROOT_DIR}/examples/patch_example/app.py
+
 
 import dataclasses as dc
 import sys
 from types import ModuleType
 from typing import Any
+
 
 MODULE = __name__
 LOCALS = locals()

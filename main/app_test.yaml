@@ -1,12 +1,11 @@
 todo:
-- >
-  Add support for user defined logic (example: run_test_for_*) following the example for assertions
-- Add logic for testing APIs
-- Make timestamps a list and append timestamp at each logical operation
-- Add switcher for unpacking based on value and caster in 'execute_test'
-- Add logic for safe loading or regular loading data from yaml files
-- Add logic to exclude specified modules from being imported as resources;
-  help prevent errors caused by circular references
+- TODO: Add support for user defined logic (example, run_test_for_*) following the example for assertions
+- TODO: Add logic for testing APIs
+- TODO: Make timestamps a list and append timestamp at each logical operation
+- TODO: Add switcher for unpacking based on value and caster in 'execute_test'
+- TODO: Add logic for safe loading or regular loading data from yaml files -> configuration safe_load=true
+- TODO: Add logic to exclude specified modules from being imported as resources; help prevent errors caused by circular references
+- TODO: Add wrapper logic back in for external libraries
 
 
 globals:

@@ -1,3 +1,8 @@
+todo:
+- TODO: Descriptions don't appear to be combined correctly.
+- TODO: Add key to exclude fields from being aggregated or combining global fields defined in configs above. exclude_globals -> [description, arguments, cast_output, etc...]
+
+
 globals:
   resources:
   - ${ROOT_DIR}/assertions/app.py
@@ -361,7 +366,7 @@ tests:
       expected:
         parent: any
         child: any
-  # # todo: fix test - should return dict for parent kind, not any
+  # # TODO: fix test - should return dict for parent kind, not any
   # - description: List and dict
   #   cast_arguments:
   #   - field: child

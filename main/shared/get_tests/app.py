@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-from __future__ import annotations
-
 import copy
 import dataclasses as dc
 import os

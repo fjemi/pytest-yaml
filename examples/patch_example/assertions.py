@@ -1,4 +1,9 @@
-# /examples/patch_example/assertions.py
+#!.venv/bin/python3
+# -*- coding: utf-8 -*-
+
+
+# ${ROOT_DIR}/examples/patch_example/assertions.py
+
 
 from typing import Any, Callable
 
@@ -21,7 +26,7 @@ def function_calls(
   store = []
   n = expected.get('n')
   keys = expected.get('keys')
-  
+
   if n:
     n = range(n)
     for i in n:

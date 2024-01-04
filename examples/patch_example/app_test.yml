@@ -1,8 +1,9 @@
-# /examples/patch_example/app_test.yml
+# ${ROOT_DIR}/examples/patch_example/app_test.yml
+
 
 globals:
   resources:
-  - /examples/patch_example/assertions.py
+  - ${ROOT_DIR}/examples/patch_example/assertions.py
 
 
 tests:

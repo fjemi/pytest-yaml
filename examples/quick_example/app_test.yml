@@ -1,4 +1,5 @@
-# /examples/quick_example/add_test.yml
+# ${ROOT_DIR}/examples/quick_example/add_test.yml
+
 
 tests:
 - function: add

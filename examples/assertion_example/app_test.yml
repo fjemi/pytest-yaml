@@ -1,9 +1,10 @@
-# /examples/assertions_example/app_test.yml
+# ${ROOT_DIR}/examples/assertions_example/app_test.yml
+
 
 globals:
   resources:
   # Use absolute path for resources
-  - /examples/assertions_example/assertions.py
+  - ${ROOT_DIR}/examples/assertions_example/assertions.py
 
 
 tests:
@@ -19,7 +20,7 @@ tests:
     # path of the module to test
     - method: assertions.assert_equals
       expected: 0
-  - description: Substract a number and a string
+  - description: Subtract a number and a string
     arguments:
       a: '0'
       b: 0

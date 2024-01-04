@@ -46,3 +46,14 @@ blank_line_before_nested_class_or_def = True
 # Do not split consecutive brackets. Only relevant when
 # dedent_closing_brackets is set. For example:
 coalesce_brackets = True
+
+# Number of blank lines surrounding top-level function and class
+# definitions.
+blank_lines_around_top_level_definition = 2
+
+# Number of blank lines between top-level imports and variable
+# definitions.
+blank_lines_between_top_level_imports_and_variables = 2
+
+# Insert a blank line before a module-level docstring.
+blank_line_before_module_docstring = True

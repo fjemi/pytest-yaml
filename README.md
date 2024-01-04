@@ -349,7 +349,7 @@ pytest --project-directory=/examples/quick_example --resources-folder-name=test_
 
 Here we see the results from calling the plugin. Two tests were collected with one passing and the other failing.
 
-![Alt text](./static/quick_example_results.png?raw=true "Quick Example Results")
+![Alt text](./examples/quick_example/static/quick_example_results.png?raw=true "Quick Example Results")
 
 </details>
 
@@ -510,7 +510,7 @@ pytest --project-directory=/examples/resource_example --resources-folder-name=te
 
 Here we see the results; two tests collected and both pass as expected.
 
-![Alt text](./static/resource_example_results.png?raw=true "Resource Example Results")
+![Alt text](./examples/resource_example/static/resource_example_results.png?raw=true "Resource Example Results")
 
 </details>
 
@@ -679,7 +679,7 @@ pytest --project-directory=/examples/assertion_example --resources-folder-name=t
 
 Here we see the results. Three tests were collected with two passing and one failing.
 
-![Alt text](./static/assertion_example_results.png?raw=true "Assertion Example Results")
+![Alt text](./examples/assertion_example/static/assertion_example_results.png?raw=true "Assertion Example Results")
 
 </details>
 
@@ -855,6 +855,8 @@ tests:
         b: 3
         result: 6
 ```
+
+![Alt text](./examples/casts_example/static/casts_example_results.png?raw=true "Casts Example Results")
 
 </details>
 
@@ -1131,7 +1133,7 @@ pytest --project-directory=/examples/assertion_example -s -vvv
 
 Here we see the results. The tests returning the original and patched objects all as expected.
 
-![Alt text](./static/patch_example_results.png?raw=true "Patch Example Results")
+![Alt text](./examples/patch_example/static/patch_example_results.png?raw=true "Patch Example Results")
 
 </details>
 
@@ -1143,7 +1145,7 @@ Here we see the results. The tests returning the original and patched objects al
 
 <br>
 <a
-  href="https://www.buymeacoffee.com/femijemilohun"
+  href="https://www.buymeacoffee.com/olufemijemo"
   target="_blank"
 >
   <img

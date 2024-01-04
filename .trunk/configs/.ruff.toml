@@ -11,7 +11,7 @@ respect-gitignore = true
 
 
 # Include file path's with matching patterns
-extend-exclude = ['*ignore*/*.py', '*.ignore*.py']
+extend-exclude = ['*ignore*/*.py', '*.ignore*/*.py']
 
 # Enable codes
 select = [

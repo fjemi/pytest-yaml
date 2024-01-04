@@ -1,6 +1,6 @@
 todo:
-- Are exceptions being logged correctly to `exception.log`? Doesn't look like it...
-- each run should be a seperate log file: timestamp.count.exception or timestamp as the folder
+- TODO: Are exceptions being logged correctly to `exception.log`? Doesn't look like it...
+- TODO: each run should be a seperate log file -> timestamp.count.exception or timestamp as the folder
 
 
 resources:

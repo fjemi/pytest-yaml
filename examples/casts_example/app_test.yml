@@ -1,8 +1,9 @@
-# /examples/casts_example/app_test.yml
+# ${ROOT_DIR}/examples/casts_example/app_test.yml
+
 
 globals:
   resources:
-  - /examples/casts_example/assertions.py
+  - ${ROOT_DIR}/examples/casts_example/assertions.py
 
 
 tests:

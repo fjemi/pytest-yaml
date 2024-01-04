@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-from __future__ import annotations
-
 import dataclasses as dc
 import time
 from types import ModuleType
@@ -91,8 +89,11 @@ async def get_patch_for_side_effect_dict(
   # trunk-ignore(ruff/ARG001)
   timestamp: int,
 ) -> Callable:
+
   def side_effect_dict_patch(key) -> Any:
-    return value[key]
+    values = value
+    return values[key]
+
   return side_effect_dict_patch
 
 
@@ -241,9 +242,10 @@ async def main(
   n = range(len(patches))
 
   for i in n:
+    timestamp = int(time.time())
     patches[i].update({
       'module': module,
-      'timestamp': int(time.time()), })
+      'timestamp': timestamp, })
     patches[i] = utils.process_arguments(
       data_class=CONFIG.schema.Data,
       locals=patches[i], )

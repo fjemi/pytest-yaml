@@ -1,4 +1,9 @@
-# /examples/resources_example/resource.py
+#!.venv/bin/python3
+# -*- coding: utf-8 -*-
+
+
+# ${ROOT_DIR}/examples/resources_example/resource.py
+
 
 import dataclasses as dc
 from typing import Any

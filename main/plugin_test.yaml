@@ -6,11 +6,10 @@ resources:
 
 
 todo:
-- complete test for add_args_and_ini_options_to_parser
-- complete test for get_options_or_inis
-- implement a spy assertion and complete tests for pytest_configure and pytest_itemcollected
-  can probably use pytest's spy
-- make sure globally defined configs are pulled into app
+- TODO: complete test for add_args_and_ini_options_to_parser
+- TODO: complete test for get_options_or_inis
+- TODO: implement a spy assertion and complete tests for pytest_configure and pytest_itemcollected can probably use pytest's spy
+- TODO: make sure globally defined configs are pulled into app
 
 
 globals:

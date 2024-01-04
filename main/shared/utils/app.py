@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-from __future__ import annotations
-
 import asyncio
 import dataclasses as dc
 import inspect

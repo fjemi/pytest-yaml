@@ -7,9 +7,8 @@ resources:
 
 
 todo:
-- Add functionality for processing operations
-- Fix test for main function. Make sure the default value is being set
-  and that exceptions are or are not raise
+- TODO: Add functionality for processing operations
+- TODO: Fix test for main function. Make sure the default value is being set and that exceptions are or are not raise
 
 
 globals:
@@ -323,7 +322,7 @@ tests:
         async_function: async_output
         async_exception: default_value
         sync_exception: '''str'' object has no attribute ''value'''
-  # todo: fix test - default value is not being returned
+  # TODO: fix test - default value is not being returned
   # think of a better way of testing the main function
   # - description: Default value defined for exceptions
   #   arguments:

@@ -67,7 +67,7 @@ exclude_files:
 - .venv
 - .eggs
 - build
-- _ignore
+- .ignore
 - __pycache__
 - .pyc
 - .trunk

@@ -7,7 +7,9 @@ build-backend = 'setuptools.build_meta'
 omit = [
   '*/test_resources/*',
   '*ignore/*',
-  #'*_ignore*',
+  '*.ignore/*',
+  '*.logs*',
+  '*logs*',
   '*__init__.py',
   'test_entrypoint.py',
   '*_test.py',
@@ -17,7 +19,7 @@ source = ['/']
 
 
 [tool.coverage.html]
-directory = 'htmlcov'
+directory = '.htmlcov'
 
 
 [tool.coverage.report]

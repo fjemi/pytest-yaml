@@ -2,24 +2,26 @@
 # -*- coding: utf-8 -*-
 
 
-import dataclasses
+import dataclasses as dc
 
+
+MODULE = __file__
 
 LOCALS = locals()
 
 
-@dataclasses.dataclass
+@dc.dataclass
 class Data:
   a: int = 0
   b: int = 0
 
 
-def add_numbers(_locals: dict) -> int:
-  return _locals['a'] + _locals['b']
+def add_numbers(locals_: dict) -> int:
+  return locals_['a'] + locals_['b']
 
 
-def add_dataclass(_locals: dict) -> int:
-  data = _locals['data']
+def add_dataclass(locals_: dict) -> int:
+  data = locals_['data']
   return data.a + data.b
 
 
@@ -34,23 +36,22 @@ def main(
   a: int | float | None = None,
   b: int | float | None = None,
 ) -> int:
-  cases = 'dataclass' if data else 'numbers'
-  switcher = MAIN[cases]
-  data = switcher(_locals=locals())
+  case_ = 'dataclass' if data else 'numbers'
+  function_ = f'add_{case_}'
+  function_ = LOCALS[function_]
+  data = function_(locals_=locals())
   return data
 
 
 def example() -> None:
-  import asyncio
+  import utils.app as utils
+  from invoke_pytest.app import main as invoke_pytest
 
-  from logger.app import main as logger
 
-
-  data = Data(1, 2)
-  data = main(data)
-  asyncio.run(logger(
-    data=data,
-    standard_output=True, ))
+  parent_module = utils.get_parent_module(
+    module=MODULE,
+    resource_folder_name='test_resources', )
+  invoke_pytest(project_directory=parent_module)
 
 
 if __name__ == '__main__':

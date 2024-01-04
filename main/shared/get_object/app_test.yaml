@@ -70,7 +70,7 @@ tests:
   description: >
     Returns the dot-limited path to and object as a list
   tests:
-  # #  todo: fix test. expected is null when it should be [] or ['']
+  # #  TODO: fix test. expected is null when it should be [] or ['']
   - description: Empty string
     arguments:
       data:
@@ -182,8 +182,8 @@ tests:
           - key: value
 - function: get_object_from_dict
   description: Returns a value of a key from a dict
-  tests: 
-  # todo: expected is null when used within an alias
+  tests:
+  # TODO: expected is null when used within an alias
   - description: Key in dict
     arguments:
       name: key_a

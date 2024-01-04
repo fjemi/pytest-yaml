@@ -2,8 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-from __future__ import annotations
-
 import dataclasses as dc
 import importlib
 import importlib.util  # as importlib_util

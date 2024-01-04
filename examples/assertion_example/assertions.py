@@ -1,4 +1,9 @@
-# /examples/assertions_example/assertions.py
+#!.venv/bin/python3
+# -*- coding: utf-8 -*-
+
+
+# ${ROOT_DIR}/examples/assertions_example/assertions.py
+
 
 from typing import Any
 

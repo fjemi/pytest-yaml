@@ -1,20 +1,20 @@
 todo:
-- >
-  add a key, such as `from_module` to allow objects to be patched as python objects
-    object: example
-    value: app.example
-    from_module: True
-  This lets us pass the object as app.example. If from module is False it is patched as a string
+- TODO: >
+    add a key, such as `from_module` to allow objects to be patched as python objects
+      object: example
+      value: app.example
+      from_module: True
+    This lets us pass the object as app.example. If from module is False it is patched as a string
 
-  option 2)
-    patch:
-      object: str
-      module_object: str
-- dot-delimited attribute paths in has_attributes
-- more robust way of testing functions that create patches
-- catch error when cast_arguments and arguments don't have matching keys
-- add logic to allow casting at the in process_assertions
-- fix this test to verify the values within parents.values
+    option 2)
+      patch:
+        object: str
+        module_object: str
+- TODO: dot-delimited attribute paths in has_attributes
+- TODO: more robust way of testing functions that create patches
+- TODO: catch error when cast_arguments and arguments don't have matching keys
+- TODO: add logic to allow casting at the in process_assertions
+- TODO: fix this test to verify the values within parents.values
 
 
 globals:
@@ -215,7 +215,7 @@ tests:
     assertions:
     - method: assertions.app.assert_type
       expected: dict
-    # todo: fix this test. see get_object.app line 57
+    # TODO: fix this test. see get_object.app line 57
     - method: assertions.app.assert_equals
       field: __name__
       expected: builtins
@@ -251,7 +251,7 @@ tests:
     - method: assertions.app.assert_length
       field: parents.values
       expected: 2
-    # # todo: add logic to allow casting at the in process_assertions
+    # # TODO: add logic to allow casting at the in process_assertions
     # - method: assertions.app.assert_equals
     #   # casts:
     #   # - caster: __builtins__.str
@@ -277,7 +277,7 @@ tests:
         - ''
         - EXAMPLE_OBJECT
         - field
-    # todo: fix this test to verify the values within parents.values
+    # TODO: fix this test to verify the values within parents.values
     # - cast_output:
     #   - caster: __builtins__.str
     #     field: parents
